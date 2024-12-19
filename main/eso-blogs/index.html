@@ -12,9 +12,11 @@
         <link rel="prev" href="../eso-demos/">
       
       
+        <link rel="next" href="../eso-tools/">
+      
       
       <link rel="icon" href="../pictures/eso-round-logo.svg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
@@ -22,7 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -41,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -50,7 +55,7 @@
   
   
 
-<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-QP38TD8K7V"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-QP38TD8K7V",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-QP38TD8K7V",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-QP38TD8K7V"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-QP38TD8K7V",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-QP38TD8K7V",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
   
     <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
   
@@ -61,7 +66,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -107,7 +119,7 @@
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -126,14 +138,40 @@
       </div>
     </div>
     
+      
+        <form class="md-header__option" data-md-component="palette">
+  
     
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
       <label class="md-header__button md-icon" for="__search">
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
       </label>
       <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
@@ -142,21 +180,21 @@
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -173,7 +211,7 @@
         <a href="https://github.com/external-secrets/external-secrets" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
   </div>
   <div class="md-source__repository">
     External Secrets Operator
@@ -362,7 +400,7 @@
       <a href="https://github.com/external-secrets/external-secrets" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
   </div>
   <div class="md-source__repository">
     External Secrets Operator
@@ -813,6 +851,14 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
     
       
@@ -889,6 +935,48 @@
   
   <span class="md-ellipsis">
     AWS Elastic Container Registry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/sts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS STS Session Token
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/cluster/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cluster Generator
   </span>
   
 
@@ -994,6 +1082,48 @@
   
   <span class="md-ellipsis">
     Webhook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/github/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Github
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/uuid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UUID
   </span>
   
 
@@ -1817,6 +1947,24 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
       
@@ -1920,6 +2068,48 @@
   
   
     <li class="md-nav__item">
+      <a href="../provider/beyondtrust/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BeyondTrust
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/bitwarden-secrets-manager/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bitwarden Secrets Manager
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../provider/chef/" class="md-nav__link">
         
   
@@ -1946,6 +2136,27 @@
   
   <span class="md-ellipsis">
     CyberArk Conjur
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/device42/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Device42
   </span>
   
 
@@ -2361,6 +2572,48 @@
   
   
     <li class="md-nav__item">
+      <a href="../provider/secretserver/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Secret Server
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/passbolt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Passbolt
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../provider/pulumi/" class="md-nav__link">
         
   
@@ -2387,6 +2640,90 @@
   
   <span class="md-ellipsis">
     Onboardbase
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider-passworddepot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password Depot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/fortanix/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fortanix
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/infisical/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Infisical
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/previder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Previder
   </span>
   
 
@@ -2775,6 +3112,8 @@
       
         
       
+        
+      
     
     
       
@@ -2901,6 +3240,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#secrets-replication-in-kubernetes-with-eso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secrets Replication in Kubernetes with ESO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pulumi-esc-and-external-secrets-operator-the-perfect-solution-for-todays-cloud-native-secret-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pulumi ESC and External Secrets Operator: The Perfect Solution for Today's Cloud-Native Secret Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from-vulnerable-to-unhackable-secrets-management-in-cloud-native-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      From vulnerable to unhackable: secrets management in cloud-native environments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enhancing-kubernetes-security-and-flexibility-with-the-cyberark-conjur-and-eso-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enhancing Kubernetes Security and Flexibility with the CyberArk Conjur and ESO Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#comparing-external-secrets-operator-with-secret-storage-csi-as-kubernetes-external-secrets-is-deprecated" class="md-nav__link">
     <span class="md-ellipsis">
       Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated
@@ -3026,10 +3401,49 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#injecting-aws-secrets-in-a-kubernetes-cluster-with-external-secrets-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Injecting AWS Secrets in a Kubernetes Cluster with External Secrets Operator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encoding-decoding-kubernetes-secrets-eso-advanced-templating" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encoding &amp; Decoding Kubernetes Secrets — ESO Advanced Templating
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eso-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -3077,6 +3491,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#secrets-replication-in-kubernetes-with-eso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secrets Replication in Kubernetes with ESO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pulumi-esc-and-external-secrets-operator-the-perfect-solution-for-todays-cloud-native-secret-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pulumi ESC and External Secrets Operator: The Perfect Solution for Today's Cloud-Native Secret Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from-vulnerable-to-unhackable-secrets-management-in-cloud-native-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      From vulnerable to unhackable: secrets management in cloud-native environments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enhancing-kubernetes-security-and-flexibility-with-the-cyberark-conjur-and-eso-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enhancing Kubernetes Security and Flexibility with the CyberArk Conjur and ESO Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#comparing-external-secrets-operator-with-secret-storage-csi-as-kubernetes-external-secrets-is-deprecated" class="md-nav__link">
     <span class="md-ellipsis">
       Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated
@@ -3202,6 +3652,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#injecting-aws-secrets-in-a-kubernetes-cluster-with-external-secrets-operator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Injecting AWS Secrets in a Kubernetes Cluster with External Secrets Operator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encoding-decoding-kubernetes-secrets-eso-advanced-templating" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encoding &amp; Decoding Kubernetes Secrets — ESO Advanced Templating
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -3222,6 +3690,15 @@
 
 <h1 id="eso-blogs">ESO Blogs</h1>
 <p>A list of blogs written by people all over the community. Feel free to let us know if you are writing about ESO at some place! We would be happy to mention you here!</p>
+<h2 id="secrets-replication-in-kubernetes-with-eso"><a href="https://externalsecrets.com/blog/secrets-replication/">Secrets Replication in Kubernetes with ESO</a></h2>
+<p><a href="https://www.linkedin.com/in/gustavo-carvalho-51427444/">@Gustavo Carvalho</a> describes how to use ESO to synchronize in-cluster secrets across multiple namespaces using only two manifests: <code>ClusterSecretStore</code> and <code>ClusterExternalSecret</code>.</p>
+<h2 id="pulumi-esc-and-external-secrets-operator-the-perfect-solution-for-todays-cloud-native-secret-management"><a href="https://www.pulumi.com/blog/cloud-native-secret-management-with-pulumi-esc-and-external-secrets-operator/">Pulumi ESC and External Secrets Operator: The Perfect Solution for Today's Cloud-Native Secret Management</a></h2>
+<p><a href="https://www.linkedin.com/in/engin-diri/">@Engin Diri</a> walks through the integration of ESO with Pulumi ESC, offering a practical guide for enhancing security from cloud-native application development to infrastructure provisioning. This blog provides a hands-on guide to setting up ESO and Pulumi ESC, and demonstrates how to use them together to manage secrets in a Kubernetes cluster.</p>
+<h2 id="from-vulnerable-to-unhackable-secrets-management-in-cloud-native-environments"><a href="https://medium.com/@as_mallem/from-vulnerable-to-unhackable-secrets-management-in-cloud-native-environments-cb341bd97869/">From vulnerable to unhackable: secrets management in cloud-native environments</a></h2>
+<p><a href="https://www.linkedin.com/in/saliha-mallem/">@Saliha Mallem</a> writes about integrating ESO with IBM Cloud Secrets Manager. In her blog, she outlines the steps to deploy ESO and demonstrates how to use both the Secrets Manager API and the Vault API for seamless integration. The blog is user-friendly and easy to follow.</p>
+<h2 id="enhancing-kubernetes-security-and-flexibility-with-the-cyberark-conjur-and-eso-integration"><a href="https://developer.cyberark.com/blog/enhancing-kubernetes-security-and-flexibility-with-the-cyberark-conjur-and-eso-integration/">Enhancing Kubernetes Security and Flexibility with the CyberArk Conjur and ESO Integration</a></h2>
+<p><a href="https://github.com/szh">@szh</a> Writes about using ESO with CyberArk Conjur. He includes detailed steps on how to
+set up a local environment with Docker Desktop and how to deploy ESO and Conjur OSS on it.</p>
 <h2 id="comparing-external-secrets-operator-with-secret-storage-csi-as-kubernetes-external-secrets-is-deprecated"><a href="https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc">Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated</a></h2>
 <p>@riddle writes about choosing ESO when comparing with Secret Store CSI Driver in their specific use case. They show us the relevant differences between the projects when looking at their scenario and requirements while integrating with ArgoCD. <a href="https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc">Comparing External Secrets Operator with Secret Storage CSI as Kubernetes External Secrets is Deprecated</a></p>
 <h2 id="tutorial-getting-started-with-external-secrets-operator-on-kubernetes-using-aws-secrets-manager"><a href="https://ptuladhar3.medium.com/getting-started-with-external-secrets-operator-on-kubernetes-using-aws-secrets-manager-6dc403d9630c">Tutorial: Getting Started with External Secrets Operator on Kubernetes using AWS Secrets Manager</a></h2>
@@ -3250,6 +3727,10 @@
 <p>Emin writes about the Push Secret feature of ESO and how this new feature reverse the workflow of ESO by pushing Kubernetes secrets to external secret management providers.</p>
 <h2 id="gcp-secret-manager-with-self-hosted-kubernetes"><a href="https://medium.com/@jjlakis/gcp-secret-manager-with-self-hosted-kubernetes-db35d01d65f0">GCP Secret Manager with self-hosted Kubernetes</a></h2>
 <p>Jacek writes about bringing GCP secrets to on-premises cluster through External Secrets Operator intergration with workload identity.</p>
+<h2 id="injecting-aws-secrets-in-a-kubernetes-cluster-with-external-secrets-operator"><a href="https://blog.devops.dev/injecting-external-secrets-in-a-kubernetes-cluster-1e9bbe0f0d5b">Injecting AWS Secrets in a Kubernetes Cluster with External Secrets Operator</a></h2>
+<p>Ali writes about integrating AWS Secrets Manager and Parameter Store secrets within an EKS Cluster using ESO. He shows a quick setup of the operator, and how to fetch secrets in a repeatable fashion. The guide is bundled with cool illustrations and code snippets that describe the ESO architecture and injection process</p>
+<h2 id="encoding-decoding-kubernetes-secrets-eso-advanced-templating"><a href="https://blog.devops.dev/encoding-decoding-kubernetes-secrets-externalsecrets-operator-826b9680df63">Encoding &amp; Decoding Kubernetes Secrets — ESO Advanced Templating</a></h2>
+<p>Here, Ali briefly introduces templates within ESO and describes some use cases where templating can be crucial. Code snippets are included where needed too.</p>
 
 
 
@@ -3274,6 +3755,8 @@
         
       </main>
       
+<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=6658a9eb-067d-49f1-94f2-b8b00f21451e" />
+  
         <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
@@ -3300,16 +3783,17 @@ For a list of trademarks of The Linux Foundation, please see our <a href="https:
   </div>
 </footer>
       
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>

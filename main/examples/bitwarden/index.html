@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../pictures/eso-round-logo.svg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
     
     
       
@@ -24,7 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -43,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -52,7 +55,7 @@
   
   
 
-<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-QP38TD8K7V"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-QP38TD8K7V",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-QP38TD8K7V",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-QP38TD8K7V"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-QP38TD8K7V",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-QP38TD8K7V",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
   
     <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
   
@@ -63,7 +66,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -109,7 +119,7 @@
     </a>
     <label class="md-header__button md-icon" for="__drawer">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -128,14 +138,40 @@
       </div>
     </div>
     
+      
+        <form class="md-header__option" data-md-component="palette">
+  
     
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
       <label class="md-header__button md-icon" for="__search">
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
       </label>
       <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
@@ -144,21 +180,21 @@
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -175,7 +211,7 @@
         <a href="https://github.com/external-secrets/external-secrets" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
   </div>
   <div class="md-source__repository">
     External Secrets Operator
@@ -362,7 +398,7 @@
       <a href="https://github.com/external-secrets/external-secrets" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
   </div>
   <div class="md-source__repository">
     External Secrets Operator
@@ -813,6 +849,14 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
     
       
@@ -889,6 +933,48 @@
   
   <span class="md-ellipsis">
     AWS Elastic Container Registry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/sts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS STS Session Token
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/cluster/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cluster Generator
   </span>
   
 
@@ -994,6 +1080,48 @@
   
   <span class="md-ellipsis">
     Webhook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/github/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Github
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/generator/uuid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UUID
   </span>
   
 
@@ -1817,6 +1945,24 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
       
@@ -1920,6 +2066,48 @@
   
   
     <li class="md-nav__item">
+      <a href="../../provider/beyondtrust/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BeyondTrust
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider/bitwarden-secrets-manager/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bitwarden Secrets Manager
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../provider/chef/" class="md-nav__link">
         
   
@@ -1946,6 +2134,27 @@
   
   <span class="md-ellipsis">
     CyberArk Conjur
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider/device42/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Device42
   </span>
   
 
@@ -2361,6 +2570,48 @@
   
   
     <li class="md-nav__item">
+      <a href="../../provider/secretserver/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Secret Server
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider/passbolt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Passbolt
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../provider/pulumi/" class="md-nav__link">
         
   
@@ -2387,6 +2638,90 @@
   
   <span class="md-ellipsis">
     Onboardbase
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider-passworddepot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password Depot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider/fortanix/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fortanix
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider/infisical/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Infisical
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../provider/previder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Previder
   </span>
   
 
@@ -2572,9 +2907,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-is-it-working" class="md-nav__link">
+  <a href="#how-does-it-work" class="md-nav__link">
     <span class="md-ellipsis">
-      How is it working ?
+      How does it work?
     </span>
   </a>
   
@@ -2592,7 +2927,7 @@
         <li class="md-nav__item">
   <a href="#deploy-bitwarden-credentials" class="md-nav__link">
     <span class="md-ellipsis">
-      Deploy Bitwarden Credentials
+      Deploy Bitwarden credentials
     </span>
   </a>
   
@@ -2608,18 +2943,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deploy-clustersecretstore-or-secretstore" class="md-nav__link">
+  <a href="#deploy-clustersecretstores" class="md-nav__link">
     <span class="md-ellipsis">
-      Deploy ClusterSecretStore (Or SecretStore)
+      Deploy (Cluster)SecretStores
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-it" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
-      How to use it ?
+      Usage
     </span>
   </a>
   
@@ -2867,6 +3202,8 @@
       
         
       
+        
+      
     
     
       
@@ -2963,6 +3300,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eso-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -3005,9 +3363,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-is-it-working" class="md-nav__link">
+  <a href="#how-does-it-work" class="md-nav__link">
     <span class="md-ellipsis">
-      How is it working ?
+      How does it work?
     </span>
   </a>
   
@@ -3025,7 +3383,7 @@
         <li class="md-nav__item">
   <a href="#deploy-bitwarden-credentials" class="md-nav__link">
     <span class="md-ellipsis">
-      Deploy Bitwarden Credentials
+      Deploy Bitwarden credentials
     </span>
   </a>
   
@@ -3041,18 +3399,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deploy-clustersecretstore-or-secretstore" class="md-nav__link">
+  <a href="#deploy-clustersecretstores" class="md-nav__link">
     <span class="md-ellipsis">
-      Deploy ClusterSecretStore (Or SecretStore)
+      Deploy (Cluster)SecretStores
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-it" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
-      How to use it ?
+      Usage
     </span>
   </a>
   
@@ -3078,25 +3436,21 @@
 
 <h1 id="bitwarden-support-using-webhook-provider">Bitwarden support using webhook provider</h1>
 <p>Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations.</p>
-<h2 id="how-is-it-working">How is it working ?</h2>
-<p>To make external-secret compatible with BitWarden, we need:</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>To make external-secrets compatible with Bitwarden, we need:</p>
 <ul>
-<li>External-Secret &gt;= 0.8.0</li>
-<li>To use the Webhook Provider</li>
-<li>2 (Cluster)SecretStores</li>
+<li>External Secrets Operator &gt;= 0.8.0</li>
+<li>Multiple (Cluster)SecretStores using the webhook provider</li>
 <li>BitWarden CLI image running <code>bw serve</code></li>
 </ul>
-<p>When you create a new external-secret object,
-External-Secret Webhook provider will do a query to the Bitwarden CLI pod,
-which is synced with the BitWarden server.</p>
+<p>When you create a new external-secret object, the External Secrets webhook provider will query the Bitwarden CLI pod that is synced with the Bitwarden server.</p>
 <h2 id="requirements">Requirements</h2>
 <ul>
-<li>Bitwarden account (it works also with VaultWarden)</li>
-<li>A Kubernetes secret which contains your BitWarden Credentials</li>
-<li>You need a Docker image with BitWarden CLI installed.
-  You could use <code>ghcr.io/charlesthomas/bitwarden-cli:2023.12.1</code> or build your own.</li>
+<li>Bitwarden account (it also works with Vaultwarden!)</li>
+<li>A Kubernetes secret which contains your Bitwarden credentials</li>
+<li>A Docker image running the Bitwarden CLI. You could use <code>ghcr.io/charlesthomas/bitwarden-cli:2023.12.1</code> or build your own.</li>
 </ul>
-<p>Here an example of Dockerfile use to build this image:
+<p>Here is an example of a Dockerfile used to build the image:
 <div class="highlight"><pre><span></span><code><span class="k">FROM</span><span class="w"> </span><span class="s">debian:sid</span>
 
 <span class="k">ENV</span><span class="w"> </span><span class="nv">BW_CLI_VERSION</span><span class="o">=</span><span class="m">2023</span>.12.1
@@ -3113,7 +3467,7 @@ which is synced with the BitWarden server.</p>
 
 <span class="k">CMD</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;/entrypoint.sh&quot;</span><span class="p">]</span>
 </code></pre></div></p>
-<p>And the content of <code>entrypoint.sh</code>
+<p>And the content of <code>entrypoint.sh</code>:
 <div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 
 <span class="nb">set</span><span class="w"> </span>-e
@@ -3127,7 +3481,7 @@ bw<span class="w"> </span>unlock<span class="w"> </span>--check
 <span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;Running `bw server` on port 8087&#39;</span>
 bw<span class="w"> </span>serve<span class="w"> </span>--hostname<span class="w"> </span><span class="m">0</span>.0.0.0<span class="w"> </span><span class="c1">#--disable-origin-protection</span>
 </code></pre></div></p>
-<h2 id="deploy-bitwarden-credentials">Deploy Bitwarden Credentials</h2>
+<h2 id="deploy-bitwarden-credentials">Deploy Bitwarden credentials</h2>
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">v1</span>
 <span class="nt">data</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">BW_HOST</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">...</span>
@@ -3195,7 +3549,7 @@ bw<span class="w"> </span>serve<span class="w"> </span>--hostname<span class="w"
 <span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">--post-data=&#39;&#39;</span>
 <span class="w">            </span><span class="nt">initialDelaySeconds</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">20</span>
 <span class="w">            </span><span class="nt">failureThreshold</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3</span>
-<span class="w">            </span><span class="nt">timeoutSeconds</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="w">            </span><span class="nt">timeoutSeconds</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span>
 <span class="w">            </span><span class="nt">periodSeconds</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">120</span>
 <span class="w">          </span><span class="nt">readinessProbe</span><span class="p">:</span>
 <span class="w">            </span><span class="nt">tcpSocket</span><span class="p">:</span>
@@ -3250,11 +3604,11 @@ bw<span class="w"> </span>serve<span class="w"> </span>--hostname<span class="w"
 <span class="w">            </span><span class="nt">app.kubernetes.io/name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets</span>
 </code></pre></div>
 <blockquote>
-<p>NOTE: Deploying a network policy is recommended since, there is no authentication to query the BitWarden CLI, which means that your secrets are exposed.</p>
-<p>NOTE: In this example the Liveness probe is quering /sync to ensure that the BitWarden CLI is able to connect to the server and also to sync secrets. (The secret sync is only every 2 minutes in this example)</p>
+<p>NOTE: Deploying a network policy is recommended since there is no authentication to query the Bitwarden CLI, which means that your secrets are exposed.</p>
+<p>NOTE: In this example the Liveness probe is querying /sync to ensure that the Bitwarden CLI is able to connect to the server and is also synchronised. (The secret sync is only every 2 minutes in this example)</p>
 </blockquote>
-<h2 id="deploy-clustersecretstore-or-secretstore">Deploy ClusterSecretStore (Or SecretStore)</h2>
-<p>Here the two ClusterSecretStore to deploy</p>
+<h2 id="deploy-clustersecretstores">Deploy (Cluster)SecretStores</h2>
+<p>There are four possible (Cluster)SecretStores to deploy, each can access different types of fields from an item in the Bitwarden vault. It is not required to deploy them all.</p>
 <div class="highlight"><pre><span></span><code><span class="nn">---</span>
 <span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1beta1</span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ClusterSecretStore</span>
@@ -3290,27 +3644,49 @@ bw<span class="w"> </span>serve<span class="w"> </span>--hostname<span class="w"
 <span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://bitwarden-cli:8087/object/item/{{</span><span class="nv"> </span><span class="s">.remoteRef.key</span><span class="nv"> </span><span class="s">}}&quot;</span>
 <span class="w">      </span><span class="nt">result</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">jsonPath</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;$.data.notes&quot;</span>
+<span class="nn">---</span>
+<span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1beta1</span>
+<span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ClusterSecretStore</span>
+<span class="nt">metadata</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bitwarden-attachments</span>
+<span class="nt">spec</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">provider</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">webhook</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http://bitwarden-cli:8087/object/attachment/{{</span><span class="nv"> </span><span class="s">.remoteRef.property</span><span class="nv"> </span><span class="s">}}?itemid={{</span><span class="nv"> </span><span class="s">.remoteRef.key</span><span class="nv"> </span><span class="s">}}&quot;</span>
+<span class="w">      </span><span class="nt">result</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{}</span>
 </code></pre></div>
-<h2 id="how-to-use-it">How to use it ?</h2>
+<h2 id="usage">Usage</h2>
+<p>(Cluster)SecretStores:</p>
 <ul>
-<li>If you need the <code>username</code> or the <code>password</code> of a secret, you have to use <code>bitwarden-login</code></li>
-<li>If you need a custom field of a secret, you have to use <code>bitwarden-fields</code></li>
-<li>If you need to use a Bitwarden Note for multiline strings (SSH keys, service account json files), you have to use <code>bitwarden-notes</code></li>
-<li>The <code>key</code> is the ID of a secret, which can be find in the URL with the <code>itemId</code> value:
-  <code>https://myvault.com/#/vault?itemId=........-....-....-....-............</code></li>
-<li>The <code>property</code> is the name of the field:</li>
+<li><code>bitwarden-login</code>: Use to get the <code>username</code> or <code>password</code> fields</li>
+<li><code>bitwarden-fields</code>: Use to get custom fields</li>
+<li><code>bitwarden-notes</code>: Use to get notes</li>
+<li><code>bitwarden-attachments</code>: Use to get attachments</li>
+</ul>
+<p>remoteRef:</p>
+<ul>
+<li>
+<p><code>key</code>: ID of a secret, which can be found in the URL <code>itemId</code> parameter:
+  <code>https://myvault.com/#/vault?type=login&amp;itemId=........-....-....-....-............</code>s</p>
+</li>
+<li>
+<p><code>property</code>: Name of the field to access</p>
+<ul>
 <li><code>username</code> for the username of a secret (<code>bitwarden-login</code> SecretStore)</li>
 <li><code>password</code> for the password of a secret (<code>bitwarden-login</code> SecretStore)</li>
 <li><code>name_of_the_custom_field</code> for any custom field (<code>bitwarden-fields</code> SecretStore)</li>
+<li><code>id_or_name_of_the_attachment</code> for any attachment (<code>bitwarden-attachment</code>, SecretStore)</li>
+</ul>
+</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1beta1</span>
 <span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ExternalSecret</span>
 <span class="nt">metadata</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-db-secrets</span>
+<span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-secrets</span>
 <span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">default</span>
 <span class="nt">spec</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">target</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-db-secrets</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">my-secrets</span>
 <span class="w">    </span><span class="nt">deletionPolicy</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Delete</span>
 <span class="w">    </span><span class="nt">template</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Opaque</span>
@@ -3327,6 +3703,8 @@ bw<span class="w"> </span>serve<span class="w"> </span>--hostname<span class="w"
 <span class="w">          </span><span class="no">postgresql://{{ .username }}:{{ .password }}@my-postgresql:5432/mydb</span>
 <span class="w">        </span><span class="nt">service_account_key</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|-</span>
 <span class="w">          </span><span class="no">{{ .service_account_key }}</span>
+<span class="w">        </span><span class="nt">ssh_pub_key</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|-</span>
+<span class="w">          </span><span class="no">{{ .ssh_pub_key }}</span>
 <span class="w">  </span><span class="nt">data</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">secretKey</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">username</span>
 <span class="w">      </span><span class="nt">sourceRef</span><span class="p">:</span>
@@ -3367,6 +3745,14 @@ bw<span class="w"> </span>serve<span class="w"> </span>--hostname<span class="w"
 <span class="w">          </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ClusterSecretStore</span><span class="w">  </span><span class="c1"># or SecretStore</span>
 <span class="w">      </span><span class="nt">remoteRef</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">service_account_key</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">secretKey</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ssh_pub_key</span>
+<span class="w">      </span><span class="nt">sourceRef</span><span class="p">:</span>
+<span class="w">        </span><span class="nt">storeRef</span><span class="p">:</span>
+<span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">bitwarden-attachments</span>
+<span class="w">          </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ClusterSecretStore</span><span class="w">  </span><span class="c1"># or SecretStore</span>
+<span class="w">      </span><span class="nt">remoteRef</span><span class="p">:</span>
+<span class="w">        </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">aaaabbbb-cccc-dddd-eeee-000011112222</span>
+<span class="w">        </span><span class="nt">property</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">id_rsa.pub</span>
 </code></pre></div>
 
 
@@ -3392,6 +3778,8 @@ bw<span class="w"> </span>serve<span class="w"> </span>--hostname<span class="w"
         
       </main>
       
+<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=6658a9eb-067d-49f1-94f2-b8b00f21451e" />
+  
         <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
@@ -3418,16 +3806,17 @@ For a list of trademarks of The Linux Foundation, please see our <a href="https:
   </div>
 </footer>
       
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
